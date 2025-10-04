@@ -86,6 +86,27 @@ export default function AgriSection() {
             </div>
           </motion.div>
         </div>
+
+        {/* Komoditas Kami Subsection */}
+        <div className="mt-16">
+          <h3 className="text-xl font-semibold text-slate-900">Komoditas Kami</h3>
+          <p className="mt-2 text-slate-700">Adapun komoditas yang kami sediakan meliputi:</p>
+          <div className="mt-4 space-y-4 text-slate-700 text-sm leading-relaxed">
+            <div>
+              <p className="font-semibold">1. Kacang-kacangan</p>
+              <p>
+                Kacang tanah, kacang merah, kacang hijau, kacang kupas, kacang almond, jagung biji, 
+                kacang tolo (otok), biji wijen, dan berbagai jenis kacang-kacangan lainnya.
+              </p>
+            </div>
+            <div>
+              <p className="font-semibold">2. Rempah-rempah</p>
+              <p>
+                Kemiri, lada, ketumbar, cengkeh — tersedia dalam bentuk biji maupun bubuk.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
