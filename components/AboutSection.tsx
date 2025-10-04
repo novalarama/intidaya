@@ -8,7 +8,7 @@ export default function AboutSection() {
         <div>
           <h2 className="text-2xl sm:text-3xl font-bold text-slate-900">Tentang Inti Daya</h2>
           <p className="mt-4 text-slate-700 leading-relaxed">
-            Inti Daya adalah perusahaan distribusi FMCG yang berfokus pada kebutuhan pokok. 
+            Inti Daya adalah distributor FMCG (Fast-Moving Consumer Goods) yang berfokus pada kebutuhan pokok. 
             Kami bermitra langsung dengan petani dan produsen tepercaya agar pasok selalu tersedia, 
             mutu konsisten, dan harga tetap ramah di kantong.
           </p>

@@ -33,6 +33,7 @@ export const products: Product[] = [
 // Navigation items
 export const navItems: NavItem[] = [
   { href: "#produk", label: "Produk" },
+  { href: "#agri", label: "Agri" },
   { href: "#tentang", label: "Tentang" },
   { href: "#visi-misi", label: "Visi & Misi" },
   { href: "#kemitraan", label: "Kemitraan" },

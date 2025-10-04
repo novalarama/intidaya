@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import ProductsSection from "@/components/ProductsSection";
+import AgriSection from "@/components/AgriSection";
 import AboutSection from "@/components/AboutSection";
 import VisionMissionSection from "@/components/VisionMissionSection";
 import PartnershipSection from "@/components/PartnershipSection";
@@ -31,6 +32,7 @@ export default function IntiDayaLanding() {
         <Header />
         <HeroSection />
         <ProductsSection />
+        <AgriSection />
         <AboutSection />
         <VisionMissionSection />
         <PartnershipSection />

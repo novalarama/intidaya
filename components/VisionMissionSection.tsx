@@ -11,7 +11,7 @@ export default function VisionMissionSection() {
           <div className="lg:col-span-1 rounded-2xl p-6 bg-gradient-to-br from-white to-[#F6FAEA] ring-1 ring-slate-200">
             <h3 className="font-semibold text-slate-900">Visi</h3>
             <p className="mt-2 text-slate-700 text-sm">
-              Menjadi perusahaan distribusi FMCG terdepan yang menghubungkan produsen lokal 
+              Menjadi distributor FMCG terdepan yang menghubungkan produsen lokal 
               dengan pasar nasional secara efisien, transparan, dan berkelanjutan.
             </p>
           </div>
