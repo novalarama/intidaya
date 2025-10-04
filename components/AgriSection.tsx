@@ -88,25 +88,53 @@ export default function AgriSection() {
         </div>
 
         {/* Komoditas Kami Subsection */}
-        <div className="mt-16">
-          <h3 className="text-xl font-semibold text-slate-900">Komoditas Kami</h3>
-          <p className="mt-2 text-slate-700">Adapun komoditas yang kami sediakan meliputi:</p>
-          <div className="mt-4 space-y-4 text-slate-700 text-sm leading-relaxed">
-            <div>
-              <p className="font-semibold">1. Kacang-kacangan</p>
-              <p>
-                Kacang tanah, kacang merah, kacang hijau, kacang kupas, kacang almond, jagung biji, 
-                kacang tolo (otok), biji wijen, dan berbagai jenis kacang-kacangan lainnya.
-              </p>
+        <motion.div
+          initial={{ opacity: 0, y: 24 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.4 }}
+          className="mt-16"
+        >
+          <div className="text-center mb-8">
+            <h3 className="text-2xl sm:text-3xl font-bold text-slate-900">Komoditas Kami</h3>
+            <p className="mt-3 text-slate-600 max-w-2xl mx-auto">
+              Adapun komoditas yang kami sediakan meliputi:
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-6">
+            {/* Kacang-kacangan Card */}
+            <div className="rounded-2xl p-6 bg-gradient-to-br from-white to-[#F6FAEA] ring-1 ring-slate-200 hover:shadow-lg transition-shadow duration-300">
+              <div className="flex items-start gap-4">
+                <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-gradient-to-br from-[#1D7A52] to-[#C3D641] flex items-center justify-center text-white font-bold text-lg">
+                  1
+                </div>
+                <div className="flex-1">
+                  <h4 className="text-lg font-semibold text-slate-900 mb-2">Kacang-kacangan</h4>
+                  <p className="text-slate-700 text-sm leading-relaxed">
+                    Kacang tanah, kacang merah, kacang hijau, kacang kupas, kacang almond, jagung biji, 
+                    kacang tolo (otok), biji wijen, dan berbagai jenis kacang-kacangan lainnya.
+                  </p>
+                </div>
+              </div>
             </div>
-            <div>
-              <p className="font-semibold">2. Rempah-rempah</p>
-              <p>
-                Kemiri, lada, ketumbar, cengkeh — tersedia dalam bentuk biji maupun bubuk.
-              </p>
+
+            {/* Rempah-rempah Card */}
+            <div className="rounded-2xl p-6 bg-gradient-to-br from-white to-[#F6FAEA] ring-1 ring-slate-200 hover:shadow-lg transition-shadow duration-300">
+              <div className="flex items-start gap-4">
+                <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-gradient-to-br from-[#1D7A52] to-[#C3D641] flex items-center justify-center text-white font-bold text-lg">
+                  2
+                </div>
+                <div className="flex-1">
+                  <h4 className="text-lg font-semibold text-slate-900 mb-2">Rempah-rempah</h4>
+                  <p className="text-slate-700 text-sm leading-relaxed">
+                    Kemiri, lada, ketumbar, cengkeh — tersedia dalam bentuk biji maupun bubuk.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </section>
   );
