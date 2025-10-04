@@ -43,7 +43,7 @@ export default function ContactSection() {
               Butuh pasok cepat? Hubungi kami
             </h2>
             <p className="mt-2 text-slate-700">
-              Minta price list, cek ketersediaan, atau ajukan kemitraan distribusi—semua bisa dari sini.
+              Minta price list, cek ketersediaan, atau ajukan kemitraan distribusi, semua bisa dari sini.
             </p>
             
             <div className="mt-6 grid gap-3 text-sm">
@@ -58,7 +58,7 @@ export default function ContactSection() {
             </div>
             
             <div className="mt-6 text-xs text-slate-500">
-              Respons cepat pada hari kerja 09.00–17.00 WIB.
+              Respons cepat pada hari kerja 09.00-17.00 WIB.
             </div>
           </div>
           

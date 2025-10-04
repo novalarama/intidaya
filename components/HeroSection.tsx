@@ -22,11 +22,11 @@ export default function HeroSection() {
             </span>
             
             <h1 className="mt-4 text-4xl sm:text-5xl font-extrabold leading-tight text-slate-900">
-              Dari <span className="bg-gradient-to-r from-[#1D7A52] to-[#C3D641] bg-clip-text text-transparent">produsen lokal</span> ke rak nasional — lebih cepat, lebih mudah, lebih jujur.
+              Dari <span className="bg-gradient-to-r from-[#1D7A52] to-[#C3D641] bg-clip-text text-transparent">produsen lokal</span> ke rak nasional, lebih cepat, lebih mudah, lebih jujur.
             </h1>
             
             <p className="mt-5 max-w-xl text-base sm:text-lg text-slate-700">
-              Kami menyalurkan kebutuhan pokok—beras, gula, minyak goreng, garam, dan lainnya—langsung dari mitra produsen & petani lokal. Fokus kami sederhana: kualitas terjaga, harga bersahabat, pelayanan sigap.
+              Kami menyalurkan kebutuhan pokok seperti beras, gula, minyak goreng, garam, dan lainnya langsung dari mitra produsen dan petani lokal. Fokus kami sederhana: kualitas terjaga, harga bersahabat, pelayanan sigap.
             </p>
             
             <div className="mt-6 flex flex-wrap gap-3">
@@ -49,7 +49,7 @@ export default function HeroSection() {
                 <CheckCircle2 className="h-4 w-4"/> Harga bersahabat
               </div>
               <div className="flex items-center gap-2">
-                <CheckCircle2 className="h-4 w-4"/> Kirim 24–72 jam
+                <CheckCircle2 className="h-4 w-4"/> Kirim 24-72 jam
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="h-4 w-4"/> Mitra tepercaya
@@ -73,7 +73,7 @@ export default function HeroSection() {
               ))}
             </div>
             <div className="absolute -bottom-3 -right-3 rounded-xl bg-white/90 ring-1 ring-slate-200 px-3 py-2 shadow-md text-xs flex items-center gap-2">
-              <Truck className="h-3.5 w-3.5"/> Lead time 24–72 jam (wilayah tertentu)
+              <Truck className="h-3.5 w-3.5"/> Lead time 24-72 jam (wilayah tertentu)
             </div>
           </motion.div>
         </div>

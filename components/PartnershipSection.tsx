@@ -15,7 +15,7 @@ export default function PartnershipSection() {
               <p className="mt-3 text-white/90">
                 Kami membuka kemitraan dengan produsen, petani, dan pemilik merek untuk memperluas 
                 jangkauan ke pasar yang tepat. Nikmati dukungan perencanaan pasok, aktivasi penjualan, 
-                dan distribusi end‑to‑end yang transparan.
+                dan distribusi end-to-end yang transparan.
               </p>
               <div className="mt-6 flex flex-wrap gap-3">
                 <button 
