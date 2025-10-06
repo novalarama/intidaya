@@ -28,6 +28,7 @@ export const products: Product[] = [
   { name: "Beras Cap Batu Mulia", tag: "Beras" },
   { name: "Beras Cap Sushi", tag: "Beras" },
   { name: "Beras Selip Lokal (Medium)", tag: "Beras" },
+  { name: "Telur Asin", tag: "Telur Asin" },
 ];
 
 // Navigation items
@@ -48,7 +49,8 @@ export const productFilters = [
   "Minyak Goreng",
   "Garam",
   "Tepung",
-  "Santan"
+  "Santan",
+  "Telur Asin"
 ];
 
 // About features
