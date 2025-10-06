@@ -24,10 +24,17 @@ export default function LogisticsSection() {
             </div>
           </div>
           
-          <div className="rounded-3xl bg-gradient-to-br from-[#F0F7DE] to-white ring-1 ring-slate-200 p-6">
-            <div className="aspect-[4/3] rounded-2xl bg-white ring-1 ring-slate-200 flex items-center justify-center text-slate-500">
-              <MapPin className="h-5 w-5 mr-2"/> Peta cakupan/armada (placeholder)
-            </div>
+          <div className="rounded-3xl overflow-hidden ring-1 ring-slate-200 shadow-lg">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1528.827084017258!2d112.10681026832864!3d-7.997872344049703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78f1acbfdebef7%3A0x1e089739ad688773!2sUD.%20Ana%20Barokah!5e0!3m2!1sid!2sid!4v1759715449313!5m2!1sid!2sid" 
+              width="100%" 
+              height="450" 
+              style={{ border: 0 }} 
+              allowFullScreen 
+              loading="lazy" 
+              referrerPolicy="no-referrer-when-downgrade"
+              className="w-full"
+            />
           </div>
         </div>
       </div>
