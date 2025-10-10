@@ -12,7 +12,11 @@ export default function Header() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <a href="#home" className="flex items-center gap-2">
-            <div className="h-8 w-8 rounded-xl bg-gradient-to-tr from-[#1D7A52] via-[#2FA36A] to-[#E5F376] shadow" />
+            <img 
+              src="/intidaya.ico" 
+              alt="Inti Daya Logo" 
+              className="h-8 w-8 rounded-xl shadow"
+            />
             <span className="font-semibold tracking-tight text-slate-900">Inti Daya</span>
           </a>
           
