@@ -6,7 +6,11 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10 text-sm text-slate-600">
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
           <div className="flex items-center gap-2">
-            <div className="h-7 w-7 rounded-lg bg-gradient-to-tr from-[#1D7A52] via-[#2FA36A] to-[#E5F376] shadow" />
+            <img 
+              src="/intidaya.ico" 
+              alt="Inti Daya Logo" 
+              className="h-7 w-7 rounded-lg shadow"
+            />
             <div>
               <div className="font-semibold text-slate-900">Inti Daya</div>
               <div className="text-xs text-slate-500">Distribusi FMCG • Indonesia</div>
