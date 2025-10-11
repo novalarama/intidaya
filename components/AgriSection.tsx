@@ -78,12 +78,61 @@ export default function AgriSection() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="rounded-3xl bg-gradient-to-br from-[#F0F7DE] to-white ring-1 ring-slate-200 p-8"
           >
-            <div className="aspect-[4/3] rounded-2xl bg-white ring-1 ring-slate-200 flex items-center justify-center text-slate-500 text-center p-6">
-              <div className="space-y-4">
-                <div className="w-16 h-16 mx-auto rounded-full bg-gradient-to-br from-[#1D7A52] to-[#C3D641] opacity-20"></div>
-                <p className="text-sm font-medium">
-                  Ilustrasi/diagram rantai pasok Agri (placeholder)
-                </p>
+            {/* Supply Chain Diagram */}
+            <div className="space-y-6">
+              <h4 className="text-lg font-semibold text-slate-900 text-center">Rantai Pasok Agri</h4>
+              
+              <div className="flex flex-col gap-4">
+                {/* Petani */}
+                <div className="flex items-center gap-3">
+                  <div className="flex-shrink-0 w-16 h-16 rounded-xl bg-gradient-to-br from-[#1D7A52] to-[#2FA36A] flex items-center justify-center text-white shadow-md">
+                    <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                    </svg>
+                  </div>
+                  <div className="flex-1 rounded-xl bg-white ring-1 ring-slate-200 p-3">
+                    <div className="font-semibold text-slate-900">Petani</div>
+                    <div className="text-xs text-slate-600">Sumber komoditas berkualitas</div>
+                  </div>
+                </div>
+
+                {/* Arrow Down */}
+                <div className="flex justify-center">
+                  <svg className="w-6 h-6 text-[#1D7A52]" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z" transform="rotate(90 12 12)"/>
+                  </svg>
+                </div>
+
+                {/* Inti Daya */}
+                <div className="flex items-center gap-3">
+                  <div className="flex-shrink-0 w-16 h-16 rounded-xl bg-gradient-to-br from-[#C3D641] to-[#E8F3A1] flex items-center justify-center shadow-md">
+                    <img src="/intidaya.ico" alt="Inti Daya" className="w-10 h-10 rounded-lg" />
+                  </div>
+                  <div className="flex-1 rounded-xl bg-white ring-1 ring-slate-200 p-3">
+                    <div className="font-semibold text-slate-900">Inti Daya Agri</div>
+                    <div className="text-xs text-slate-600">Pengadaan & distribusi</div>
+                  </div>
+                </div>
+
+                {/* Arrow Down */}
+                <div className="flex justify-center">
+                  <svg className="w-6 h-6 text-[#1D7A52]" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z" transform="rotate(90 12 12)"/>
+                  </svg>
+                </div>
+
+                {/* Pabrik/Industri */}
+                <div className="flex items-center gap-3">
+                  <div className="flex-shrink-0 w-16 h-16 rounded-xl bg-gradient-to-br from-[#2FA36A] to-[#1D7A52] flex items-center justify-center text-white shadow-md">
+                    <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                    </svg>
+                  </div>
+                  <div className="flex-1 rounded-xl bg-white ring-1 ring-slate-200 p-3">
+                    <div className="font-semibold text-slate-900">Pabrik/Industri</div>
+                    <div className="text-xs text-slate-600">Pengolahan & produksi</div>
+                  </div>
+                </div>
               </div>
             </div>
           </motion.div>
@@ -137,7 +186,7 @@ export default function AgriSection() {
                     Rempah-rempah
                   </h4>
                   <p className="text-slate-700 text-sm leading-relaxed">
-                    Kemiri, lada, ketumbar, cengkeh — tersedia dalam bentuk biji
+                    Kemiri, lada, ketumbar, cengkeh tersedia dalam bentuk biji
                     maupun bubuk.
                   </p>
                 </div>

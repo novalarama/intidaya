@@ -39,7 +39,13 @@ export default function AboutSection() {
         </div>
         
         <div className="rounded-3xl bg-gradient-to-br from-[#F0F7DE] to-white ring-1 ring-slate-200 p-6">
-          <div className="aspect-[4/3] rounded-2xl bg-white ring-1 ring-slate-200" />
+          <div className="aspect-[4/3] rounded-2xl bg-white ring-1 ring-slate-200 flex items-center justify-center p-8">
+            <img 
+              src="/intidaya.ico" 
+              alt="Inti Daya Logo" 
+              className="w-48 h-48 object-contain"
+            />
+          </div>
         </div>
       </div>
     </section>

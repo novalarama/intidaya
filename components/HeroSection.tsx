@@ -64,10 +64,22 @@ export default function HeroSection() {
             className="relative"
           >
             <div className="aspect-[4/3] rounded-3xl bg-white/70 ring-1 ring-slate-200 shadow-xl p-4 sm:p-6 grid grid-cols-2 gap-3">
-              {["Beras","Gula","Minyak","Garam"].map((cat) => (
-                <div key={cat} className="rounded-2xl p-4 bg-gradient-to-br from-white to-[#F3F8E8] ring-1 ring-slate-200">
-                  <div className="h-24 sm:h-28 rounded-xl bg-gradient-to-tr from-[#E8F3A1] to-[#CDE97A]" />
-                  <div className="mt-3 font-semibold">{cat}</div>
+              {[
+                { name: "Beras", img: "/assets/img-beras-cap-sushi.png" },
+                { name: "Gula", img: "/assets/img-gulanusakita.png" },
+                { name: "Minyak", img: "/assets/img-minyak-rosebrand-2l.png" },
+                { name: "Garam", img: "/assets/img-garam-tjap-kapal.png" }
+              ].map((cat) => (
+                <div key={cat.name} className="rounded-2xl p-4 bg-gradient-to-br from-white to-[#F3F8E8] ring-1 ring-slate-200">
+                  <div className="h-24 sm:h-28 rounded-xl bg-white flex items-center justify-center p-2">
+                    <img 
+                      src={cat.img} 
+                      alt={cat.name}
+                      className="w-full h-full object-contain"
+                      style={{ mixBlendMode: 'multiply' }}
+                    />
+                  </div>
+                  <div className="mt-3 font-semibold">{cat.name}</div>
                   <div className="text-xs text-slate-600">Kualitas terjamin • Ready stock</div>
                 </div>
               ))}
