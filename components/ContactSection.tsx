@@ -64,7 +64,7 @@ export default function ContactSection() {
                 </div>
                 {addresses.map((addr, idx) => (
                   <div key={idx} className="pl-6 text-sm text-slate-700 leading-relaxed">
-                    {idx + 1}. {addr}
+                    {addr}
                   </div>
                 ))}
               </div>
