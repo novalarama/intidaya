@@ -50,18 +50,22 @@ export default function ProductsSection() {
               transition={{ duration: 0.35, delay: idx * 0.03 }}
               className="group rounded-2xl bg-white ring-1 ring-slate-200 hover:ring-slate-300 shadow-sm hover:shadow-md transition overflow-hidden"
             >
-              <div className="h-48 bg-gradient-to-br from-[#F0F7DE] to-white flex items-center justify-center p-4">
+              <div className="h-64 bg-white flex items-center justify-center p-6 relative overflow-hidden">
+                {/* Subtle background pattern */}
+                <div className="absolute inset-0 bg-gradient-to-br from-slate-50/50 to-transparent"></div>
                 <img 
                   src={p.image} 
                   alt={p.name}
-                  className="w-full h-full object-contain"
+                  className="relative z-10 w-full h-full object-contain transform group-hover:scale-105 transition-transform duration-300"
+                  style={{ 
+                    mixBlendMode: 'multiply'
+                  }}
                 />
               </div>
               <div className="p-4">
                 <div className="text-xs text-slate-600">{p.tag}</div>
                 <h3 className="mt-1 font-semibold text-slate-900">{p.name}</h3>
-                <div className="mt-3 flex items-center justify-between">
-                  <div className="text-xs text-slate-500">Tersedia berbagai ukuran</div>
+                <div className="mt-3 flex items-center justify-end">
                   <button 
                     onClick={() => handleTanyaStok(p.name)} 
                     className="inline-flex items-center gap-1 text-sm font-semibold text-[#1D7A52] hover:text-[#145C3D]"
