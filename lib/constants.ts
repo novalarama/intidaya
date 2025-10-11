@@ -28,6 +28,11 @@ export const products: Product[] = [
   { name: "Minyak Kunci Mas", tag: "Minyak Goreng", image: "/assets/img-minyak-kuncimas.png" },
   { name: "Minyak Rosebrand 1L", tag: "Minyak Goreng", image: "/assets/img-minyak-rosebrand-1l.png" },
   { name: "Minyak Rosebrand 2L", tag: "Minyak Goreng", image: "/assets/img-minyak-rosebrand-2l.png" },
+  { name: "Minyak Kita", tag: "Minyak Goreng", image: "/assets/img_minyakita.png" },
+  { name: "Minyak Kokimas", tag: "Minyak Goreng", image: "/assets/img_minyak_kokimas.png" },
+  { name: "Minyak Bimoli", tag: "Minyak Goreng", image: "/assets/img-minyak-rosebrand-2l.png" },
+  { name: "Margarin Palmia", tag: "Margarin", image: "/assets/img_palmia.png" },
+  { name: "Margarin Blue Band", tag: "Margarin", image: "/assets/img_blueband.png" },
   { name: "Tepung Rosebrand", tag: "Tepung", image: "/assets/img-tepung-rosebrand.png" },
   { name: "Sun Kara", tag: "Santan", image: "/assets/img-sunkara.png" },
   { name: "Beras Selip Lokal (Premium)", tag: "Beras", image: "/assets/img-berassliplokal.png" },
@@ -35,6 +40,9 @@ export const products: Product[] = [
   { name: "Beras Cap Sushi", tag: "Beras", image: "/assets/img-beras-cap-sushi.png" },
   { name: "Beras Selip Lokal (Medium)", tag: "Beras", image: "/assets/img-berassliplokal.png" },
   { name: "Telur Asin", tag: "Telur Asin", image: "/assets/img-telurasin.png" },
+  { name: "Indomie", tag: "Mie Instan", image: "/assets/img_indomie.png" },
+  { name: "Mie Cap Nelayan", tag: "Mie Instan", image: "/assets/img_capnelayan.png" },
+  { name: "Susu Indomilk", tag: "Susu", image: "/assets/img_indomilk.png" },
 ];
 
 // Navigation items
@@ -53,10 +61,13 @@ export const productFilters = [
   "Beras",
   "Gula",
   "Minyak Goreng",
+  "Margarin",
   "Garam",
   "Tepung",
   "Santan",
-  "Telur Asin"
+  "Telur Asin",
+  "Mie Instan",
+  "Susu"
 ];
 
 // About features
