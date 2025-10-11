@@ -1,6 +1,7 @@
 export interface Product {
   name: string;
   tag: string;
+  image: string;
 }
 
 export interface NavItem {

@@ -16,19 +16,19 @@ export const brand: BrandColors = {
 
 // Products data
 export const products: Product[] = [
-  { name: "Gula NusaKita (Pabrik Ngadirejo)", tag: "Gula" },
-  { name: "Garam Tjap Jempol", tag: "Garam" },
-  { name: "Garam Tjap Kapal", tag: "Garam" },
-  { name: "Minyak Kunci Mas", tag: "Minyak Goreng" },
-  { name: "Minyak Rosebrand 1L", tag: "Minyak Goreng" },
-  { name: "Minyak Rosebrand 2L", tag: "Minyak Goreng" },
-  { name: "Tepung Rosebrand", tag: "Tepung" },
-  { name: "Sun Kara", tag: "Santan" },
-  { name: "Beras Selip Lokal (Premium)", tag: "Beras" },
-  { name: "Beras Cap Batu Mulia", tag: "Beras" },
-  { name: "Beras Cap Sushi", tag: "Beras" },
-  { name: "Beras Selip Lokal (Medium)", tag: "Beras" },
-  { name: "Telur Asin", tag: "Telur Asin" },
+  { name: "Gula NusaKita (Pabrik Ngadirejo)", tag: "Gula", image: "/assets/img-gulanusakita.png" },
+  { name: "Garam Tjap Jempol", tag: "Garam", image: "/assets/img-garam-tjap-jempol.png" },
+  { name: "Garam Tjap Kapal", tag: "Garam", image: "/assets/img-garam-tjap-kapal.png" },
+  { name: "Minyak Kunci Mas", tag: "Minyak Goreng", image: "/assets/img-minyak-kuncimas.png" },
+  { name: "Minyak Rosebrand 1L", tag: "Minyak Goreng", image: "/assets/img-minyak-rosebrand-1l.png" },
+  { name: "Minyak Rosebrand 2L", tag: "Minyak Goreng", image: "/assets/img-minyak-rosebrand-2l.png" },
+  { name: "Tepung Rosebrand", tag: "Tepung", image: "/assets/img-tepung-rosebrand.png" },
+  { name: "Sun Kara", tag: "Santan", image: "/assets/img-sunkara.png" },
+  { name: "Beras Selip Lokal (Premium)", tag: "Beras", image: "/assets/img-berassliplokal.png" },
+  { name: "Beras Cap Batu Mulia", tag: "Beras", image: "/assets/img-beras-cap-batumulia.png" },
+  { name: "Beras Cap Sushi", tag: "Beras", image: "/assets/img-beras-cap-sushi.png" },
+  { name: "Beras Selip Lokal (Medium)", tag: "Beras", image: "/assets/img-berassliplokal.png" },
+  { name: "Telur Asin", tag: "Telur Asin", image: "/assets/img-telurasin.png" },
 ];
 
 // Navigation items

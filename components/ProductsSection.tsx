@@ -50,7 +50,13 @@ export default function ProductsSection() {
               transition={{ duration: 0.35, delay: idx * 0.03 }}
               className="group rounded-2xl bg-white ring-1 ring-slate-200 hover:ring-slate-300 shadow-sm hover:shadow-md transition overflow-hidden"
             >
-              <div className="h-40 bg-gradient-to-br from-[#F0F7DE] to-white" />
+              <div className="h-48 bg-gradient-to-br from-[#F0F7DE] to-white flex items-center justify-center p-4">
+                <img 
+                  src={p.image} 
+                  alt={p.name}
+                  className="w-full h-full object-contain"
+                />
+              </div>
               <div className="p-4">
                 <div className="text-xs text-slate-600">{p.tag}</div>
                 <h3 className="mt-1 font-semibold text-slate-900">{p.name}</h3>
