@@ -1,8 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import { Phone, ChevronRight } from "lucide-react";
-import { WA_NUMBER } from "@/lib/constants";
+import { Phone, ChevronRight, MapPin } from "lucide-react";
+import { WA_NUMBER, addresses } from "@/lib/constants";
 import { sendContactForm } from "@/lib/whatsapp";
 import type { FormData } from "@/lib/types";
 
@@ -46,15 +46,28 @@ export default function ContactSection() {
               Minta price list, cek ketersediaan, atau ajukan kemitraan distribusi, semua bisa dari sini.
             </p>
             
-            <div className="mt-6 grid gap-3 text-sm">
+            <div className="mt-6 space-y-4">
+              {/* WhatsApp Button */}
               <a 
                 href={`https://wa.me/${WA_NUMBER}`} 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="inline-flex items-center gap-2 w-fit rounded-full px-5 py-3 font-semibold text-white bg-[#25D366] hover:bg-[#20BA5A] shadow-lg"
               >
-                <Phone className="h-5 w-5"/> WhatsApp Kami
+                <Phone className="h-5 w-5"/> +62 813-5994-1169
               </a>
+
+              {/* Addresses */}
+              <div className="space-y-3">
+                <div className="font-semibold text-slate-900 flex items-center gap-2">
+                  <MapPin className="h-4 w-4" /> Alamat Kami:
+                </div>
+                {addresses.map((addr, idx) => (
+                  <div key={idx} className="pl-6 text-sm text-slate-700 leading-relaxed">
+                    {idx + 1}. {addr}
+                  </div>
+                ))}
+              </div>
             </div>
             
             <div className="mt-6 text-xs text-slate-500">

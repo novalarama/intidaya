@@ -1,7 +1,13 @@
 import type { Product, NavItem, BrandColors } from './types';
 
 // WhatsApp number
-export const WA_NUMBER = '6281234567890';
+export const WA_NUMBER = '6281359941169';
+
+// Addresses
+export const addresses = [
+  "Dsn. Ringinanyar RT001/RW002, Ds. Ringinanyar, Kec. Ponggok, Kab. Blitar",
+  "Dsn. Bendorejo RT001/RW003, Ds. Gembongan, Kec. Ponggok, Kab. Blitar"
+];
 
 // Brand colors
 export const brand: BrandColors = {
