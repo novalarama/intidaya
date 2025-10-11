@@ -66,7 +66,7 @@ export default function HeroSection() {
             <div className="aspect-[4/3] rounded-3xl bg-white/70 ring-1 ring-slate-200 shadow-xl p-4 sm:p-6 grid grid-cols-2 gap-3">
               {[
                 { name: "Beras", img: "/assets/img-beras-cap-sushi.png" },
-                { name: "Gula", img: "/assets/img-gulanusakita.png" },
+                { name: "Gula", img: "/assets/img_nusakita.png" },
                 { name: "Minyak", img: "/assets/img-minyak-rosebrand-2l.png" },
                 { name: "Garam", img: "/assets/img-garam-tjap-kapal.png" }
               ].map((cat) => (
