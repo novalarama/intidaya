@@ -22,7 +22,7 @@ export const brand: BrandColors = {
 
 // Products data
 export const products: Product[] = [
-  { name: "Gula NusaKita (Pabrik Ngadirejo)", tag: "Gula", image: "/assets/img-gulanusakita.png" },
+  { name: "Gula NusaKita (Pabrik Ngadirejo)", tag: "Gula", image: "/assets/img_nusakita.png" },
   { name: "Garam Tjap Jempol", tag: "Garam", image: "/assets/img-garam-tjap-jempol.png" },
   { name: "Garam Tjap Kapal", tag: "Garam", image: "/assets/img-garam-tjap-kapal.png" },
   { name: "Minyak Kunci Mas", tag: "Minyak Goreng", image: "/assets/img-minyak-kuncimas.png" },
