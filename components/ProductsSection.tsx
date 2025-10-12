@@ -1,11 +1,19 @@
 "use client";
 
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { ChevronRight } from "lucide-react";
 import { products, productFilters } from "@/lib/constants";
 import { handleTanyaStok, handlePriceList } from "@/lib/whatsapp";
 
 export default function ProductsSection() {
+  const [activeFilter, setActiveFilter] = useState("Semua");
+
+  // Filter products based on active filter
+  const filteredProducts = activeFilter === "Semua" 
+    ? products 
+    : products.filter(p => p.tag === activeFilter);
+
   return (
     <section id="produk" className="py-16 sm:py-20 bg-gradient-to-b from-white to-slate-50">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -24,13 +32,14 @@ export default function ProductsSection() {
           </button>
         </div>
 
-        {/* Filters (visual only) */}
+        {/* Filters */}
         <div className="mt-6 flex flex-wrap gap-2 text-sm">
-          {productFilters.map((f, i) => (
+          {productFilters.map((f) => (
             <button 
-              key={f} 
-              className={`rounded-full border px-3 py-1.5 ${
-                i === 0 
+              key={f}
+              onClick={() => setActiveFilter(f)}
+              className={`rounded-full border px-3 py-1.5 transition-colors ${
+                activeFilter === f
                   ? "bg-[#1D7A52] text-white border-transparent" 
                   : "border-slate-300 text-slate-700 hover:bg-slate-50"
               }`}
@@ -41,7 +50,7 @@ export default function ProductsSection() {
         </div>
 
         <div className="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
-          {products.map((p, idx) => (
+          {filteredProducts.map((p, idx) => (
             <motion.div 
               key={p.name} 
               initial={{ opacity: 0, y: 18 }} 
