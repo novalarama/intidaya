@@ -30,7 +30,7 @@ export const products: Product[] = [
   { name: "Minyak Rosebrand 2L", tag: "Minyak Goreng", image: "/assets/img-minyak-rosebrand-2l.png" },
   { name: "Minyak Kita", tag: "Minyak Goreng", image: "/assets/img_minyakita.png" },
   { name: "Minyak Kokimas", tag: "Minyak Goreng", image: "/assets/img_minyak_kokimas.png" },
-  { name: "Minyak Bimoli", tag: "Minyak Goreng", image: "/assets/img-minyak-rosebrand-2l.png" },
+  { name: "Minyak Bimoli", tag: "Minyak Goreng", image: "/assets/img-minyakbimoli.png" },
   { name: "Margarin Palmia", tag: "Margarin", image: "/assets/img_palmia.png" },
   { name: "Margarin Blue Band", tag: "Margarin", image: "/assets/img_blueband.png" },
   { name: "Tepung Rosebrand", tag: "Tepung", image: "/assets/img-tepung-rosebrand.png" },
@@ -43,6 +43,10 @@ export const products: Product[] = [
   { name: "Indomie", tag: "Mie Instan", image: "/assets/img_indomie.png" },
   { name: "Mie Cap Nelayan", tag: "Mie Instan", image: "/assets/img_capnelayan.png" },
   { name: "Susu Indomilk", tag: "Susu", image: "/assets/img_indomilk.png" },
+  { name: "Bumbu Desaku", tag: "Bumbu", image: "/assets/img-bumbudesaku.png" },
+  { name: "Kecap ABC (All Size)", tag: "Bumbu", image: "/assets/img-kecapabc.png" },
+  { name: "Kecap Indofood", tag: "Bumbu", image: "/assets/img-kecapindofood.png" },
+  { name: "Tepung Kompas", tag: "Tepung", image: "/assets/img-tepungkompas.png" },
 ];
 
 // Navigation items
@@ -61,6 +65,7 @@ export const productFilters = [
   "Beras",
   "Gula",
   "Minyak Goreng",
+  "Bumbu",
   "Margarin",
   "Garam",
   "Tepung",
